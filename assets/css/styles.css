@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  /*    background-color: #011F3F;*/
+  background-color: #D1E7FF;
+}
+
+#page-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 36px;
+    margin: 3.5% 1rem 0;
+}
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin: 3% 1rem 2%;
+    color: #006FFF;
+}
+
+/* -------------------- BUTTONS COLOR */
+
+.red {
+    background-color: red;
+    border-color: #FF3939;
+}
+
+.green {
+    background-color: green;
+    border-color: #02C902;
+}
+
+.blue {
+    background-color: blue;
+    border-color: #373EFF;
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: #D6D634;
+}
+
+/* -------------------- TITLE ANIMATION */
+
+.linear-wipe {
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, color-stop(14%, violet), color-stop(28%, indigo), color-stop(42%, blue), color-stop(56%, green), color-stop(70%, yellow), color-stop(84%, orange), to(red));
+    background: linear-gradient(to right, violet 14%, indigo 28%, blue 42%, green 56%, yellow 70%, orange 84%, red 100%);
+    background-size: 200% auto;
+    color: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 3s linear infinite;
+    animation: shine 3s linear infinite;
+}
