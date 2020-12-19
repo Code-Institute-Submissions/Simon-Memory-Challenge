@@ -164,7 +164,7 @@ All code written has been thoroughly validated and passed through the following 
 
 - CSS - All styling was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure it was valid and no errors were made.
 
-- JavaScript - All my script was run through the [JSHint](https://jshint.com/) validator and no errors were found.
+- JavaScript - All my script was run through the [JSHint](https://jshint.com/) validator and [Esprima](https://esprima.org/demo/validate.html) and no errors were found.
 
 ## Deployment
 
