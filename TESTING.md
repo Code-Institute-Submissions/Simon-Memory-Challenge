@@ -58,6 +58,7 @@ I have detailed the manual testing undertaken during the development stage to en
 ### Responsive Design Testing
 
 During the development and testing phase of the site, I used Google Chrome Dev Tools to test the layout as I built my code and used the various screen sizes to ensure that it displayed correctly and that elements of the size displayed correctly and easily viewable by the user.
+(https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/assets/css/responsive.css)
 
 All testing was performed using:
 
