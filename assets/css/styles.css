@@ -4,6 +4,10 @@ body {
   background-color: #D1E7FF;
 }
 
+body.dark-mode {
+    background-color: #011F3F;
+}
+
 #page-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 36px;
@@ -15,6 +19,30 @@ body {
     font-size: 1.5rem;
     margin: 3% 1rem 2%;
     color: #006FFF;
+}
+
+.dark-mode #level-title {
+    color: #DFFFA8;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+body.game-over {
+    background-color: red;
+    opacity: 0.8;
 }
 
 /* -------------------- BUTTONS COLOR */
@@ -125,3 +153,155 @@ button:focus {
     -webkit-text-fill-color: transparent;
 }
 
+.copyright {
+    font-size: 20px;
+    font-family: Roboto;
+    color: #88ABD0;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 1rem;
+    margin: 0;
+}
+
+.float-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+}
+
+.btn-round {
+    /*    background: linear-gradient(to bottom, #0050A5, #02346A 75%);*/
+    background-color: #5483B6;
+    min-width: 70px;
+    max-width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.btn-round img {
+    width: 100%;
+}
+
+.btn-round:not(:last-child) {
+    margin-bottom: 1.7rem;
+}
+
+.btn-round:before {
+    background: linear-gradient(to top, #21558E, #2260A4 75%);
+    min-width: 62px;
+    max-width: 62px;
+    height: 63px;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    border: none;
+}
+
+.btn-sound {
+    cursor: default;
+}
+
+.btn-info:hover .info-box {
+    display: unset;
+}
+
+.info-box {
+    background-color: #FFF;
+    position: absolute;
+    min-width: 350px;
+    top: calc(100% + 17px);
+    right: 0;
+    border-radius: 20px;
+    max-height: 180px;
+    padding: 1rem;
+    text-align: left;
+    box-sizing: border-box;
+    display: none;
+}
+
+.info-box:before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.info-box h4 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: .5px;
+    color: #013A77;
+}
+
+.info-box p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #013A77;
+    line-height: 1.7;
+    letter-spacing: .5px;
+    overflow-x: auto;
+    max-height: 115px;
+}
+
+.info-box p::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 10px;
+}
+
+.info-box p::-webkit-scrollbar-track {
+    background: #f6f6f6;
+}
+
+.info-box p::-webkit-scrollbar-thumb {
+    background: #d1d1d1;
+    border-radius: 10px;
+}
+
+.info-box p::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+}
+
+body.dark-mode .info-box,
+body.dark-mode .info-box:before {
+    background-color: #013672;
+}
+
+body.dark-mode .info-box h4,
+body.dark-mode .info-box p {
+    color: #FFF;
+}
+
+body.dark-mode .info-box p::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body.dark-mode .info-box p::-webkit-scrollbar-thumb {
+    background: #0562C5;
+}
+
+body.dark-mode .info-box p::-webkit-scrollbar-thumb:hover {
+    background: #011F3F;
+}
