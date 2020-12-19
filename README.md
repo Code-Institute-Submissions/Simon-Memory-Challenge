@@ -1,6 +1,6 @@
 # Simon Memory Challenge
 
-[Simon Memory challenge](https://fatimascoding2020.github.io/Simon-Memory-Challenge/) is an simple interactive memory challenge game.
+[Simon Memory challenge](https://fatimascoding2020.github.io/Simon-Memory-Challenge/) is an simple interactive memory game.
 
 The Simon Memory Challenge is a memory game designed to engage users of all ages and is child friendly.It is a game with lights and sounds, easy to play, offers various difficulty levels to the user, in which users must replicate a sequence of lights and sounds by pressing the coloured buttons.It features a Start button to start the game sequence and Try Again button will restart the game if the user gets the sequence wrong.This game is fully responsive to the users chosen device.
 
@@ -102,12 +102,13 @@ The following are the design choices:
 
 I used [Balsamiq](https://balsamiq.com/) for the design and planning process for this project.
 
-- [Desktop]
-  (https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/wireframes/Desktop-view/Desktop-view-Simon.png)
-- [Tablet]
-  (https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/wireframes/Mobile-view/Mobile-view-Simon.png)
-- [Mobile]
-  (https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/wireframes/Tablet-view/Tablet-view-Simon.png)
+#### Desktop view
+[Home page](wireframes/Desktop-view/Desktop-view-Simon.png) 
+#### Tablet view
+[Home page](wireframes/Tablet-view/Tablet-view-Simon.png) 
+#### Mobile view
+[Home page](wireframes/Mobile-view/Mobile-view-Simon.png) 
+
 
 
 ## Technologies Used
