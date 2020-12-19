@@ -6,7 +6,9 @@ The Simon Memory Challenge is a memory game designed to engage users of all ages
 
 I have used HTML, CSS and JavaScript to build this and the game which will form part of my ongoing portfolio of work.
 
+
 ![Am-I-Responsive](testingfiles/AmIResponsive.png)
+
 
 
 ## Table of Contents
@@ -17,8 +19,7 @@ I have used HTML, CSS and JavaScript to build this and the game which will form 
     - [**User Stories**](#user-stories)
     - [**Design choices**](#design-choices)
     - [**Wireframes**](#wireframes)
-    - [Variation Between Wireframes and Final Product](#variation-between-wireframes-and-final-product)
-
+    
 2. [**Technologies Used**](#technologies-used)
 
 3. [**Features**](#features)
@@ -27,16 +28,13 @@ I have used HTML, CSS and JavaScript to build this and the game which will form 
 
 4. [**Testing**](#testing)
     - [**Code Validation**](#code-validation)
-    - [**Manual Testing**](#manual-testing)
-
+    
 5. [**Deployment**](#deployment)
     - [**To Run Locally**](#to-run-locally)
 
 6. [**Credits**](#credits)
-    - [**Music and Sound Effects**](#music-and-sound-effects)
+    - [**Sound Effects**](#sound-effects)
     - [**Images**](#images)
-    - [**Code Credits**](#code-credits)
-    - [**Learning Resources**](#learning-resources)
     - [**Acknowledgements**](#acknowledgements)
 
 7. [**Disclaimer**](#disclaimer)
@@ -104,6 +102,115 @@ The following are the design choices:
 
 I used [Balsamiq](https://balsamiq.com/) for the design and planning process for this project.
 
-- [Desktop]()
-- [Tablet]()
-- [Mobile]()
+- [Desktop]
+  (https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/wireframes/Desktop-view/Desktop-view-Simon.png)
+- [Tablet]
+  (https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/wireframes/Mobile-view/Mobile-view-Simon.png)
+- [Mobile]
+  (https://github.com/FatimasCoding2020/Simon-Memory-Challenge/blob/main/wireframes/Tablet-view/Tablet-view-Simon.png)
+
+
+## Technologies Used
+
+1. [HTML](https://en.wikipedia.org/wiki/HTML) - This was used for the overall structure of the website.
+
+2. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - This was used for the overall and bespoke styling of elements on the website.
+
+3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create overall logic of the game as well as controlling the modals, audio and buttons.
+
+4. [Google Fonts](https://fonts.google.com/) - I used Google Fonts Press 2 Play and Roboto.
+
+5. [GitHub](https://github.com/) - I used to store my repository for the project and record all my commits.
+
+6. [GitHub Pages](https://pages.github.com/) - I used to deploy my website.
+
+7. [Atom](https://atom.io/) - I used this to write the code for my site.
+
+8. [Storyblocks](https://www.storyblocks.com/) - I used the game sounds from this website. 
+
+9. [Flaticon](https://www.flaticon.com/) - I used the icons from this website.  
+
+
+## Features
+
+### Existing Features
+
+1. The user is first greeted with a page with a blinking swipe ”Simon Memory Challenge" title logo and title to Press  Start to play
+2. The start button allows the user to start the game.
+3. The interactive coloured light-able buttons when clicked have unique sounds which allows the users to replicate a sequence of lights and offers various difficulty levels. 
+4. Try Again button will restart the game if the user gets the sequence wrong.
+5. The modal “i” button allows users to read the instructions for how to play the game.
+6. Users are able to click the volume button, which toggles the sound on and off.The button also changes depending on the toggle state.
+7. Users are able to click the dark mode/light mode button, which toggles into dark and light backgrounds.The button also changes depending on the toggle state.
+
+
+
+### Features To Be Implemented
+
+**High score**
+- I would like to add a high score mode 
+
+
+## Testing
+
+The testing process can be seen [here](TESTING.md).
+
+### Code Validation
+
+All code written has been thoroughly validated and passed through the following online validators:
+
+- HTML - All code was run through the [W3C HTML Validator](https://validator.w3.org/) to ensure it was valid code and no errors were made.
+
+- CSS - All styling was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure it was valid and no errors were made.
+
+- JavaScript - All my script was run through the [JSHint](https://jshint.com/) validator and no errors were found.
+
+## Deployment
+
+o deploy this page to GitHub Pages from its [GitHub repository](https://github.com/FatimasCoding2020/Simon-Memory-Challenge), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **USERNAME/REPOSITORY**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+### Running this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [GitHub repository](https://github.com/FatimasCoding2020/Simon-Memory-Challenge).
+2. Under the repository name, click the green "Clone or download" button.
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local editor program, open a terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+
+```git clone https://github.com/FatimasCoding2020/Simon-Memory-Challenge```
+
+7. Press Enter. Your local clone will be created.
+
+For more help on cloning a repository on Github, please click [here](https://help.github.com/en/articles/cloning-a-repository).
+
+
+## Credits
+
+### Sound Effects
+
+- The sound files are sourced from https://www.storyblocks.com/
+
+### Images
+
+- The images are sourced from https://www.flaticon.com/
+
+- The image showing the responsive layouts was created using [Am I Responsive?](http://ami.responsivedesign.is/#).
+
+
+### Acknowledgements
+
+A special thanks to:
+
+- My Code Institute Mentor, [Precious Ijege](https://github.com/precious-ijege) for his support during the project.
+
+
+This site has been created entirely for **educational purposes** only and is not intended to be used in any other capacity.This site uses the games concept only to show the developers ability in the language of Javascript.
