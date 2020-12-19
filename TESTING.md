@@ -20,9 +20,9 @@ All code written has been thoroughly validated and passed through the following 
 
 - HTML - All code was run through the [W3C HTML Validator](https://validator.w3.org/) to ensure it was valid code and no errors were made ![HTML Validator](testingfiles/HTMLValidator.png)
 
-- CSS - All styling was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure it was valid and no errors were made ![CSS Validator](testingfiles/CSSValidation.png)
+- CSS - All styling was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure it was valid and no errors were made ![CSS Validator](testingfiles/CSSValidator.png)
 
-- JavaScript - All my script was run through the [JSHint](https://jshint.com/) validator and [Esprima](https://esprima.org/demo/validate.html) and no errors were found ![Javascript Validator](testingfiles/JavascriptValidation.png)
+- JavaScript - All my script was run through the [JSHint](https://jshint.com/) validator and [Esprima](https://esprima.org/demo/validate.html) and no errors were found ![Javascript Validator](testingfiles/JavascriptValidator.png)
 
 ## Testing Against User Stories
 
