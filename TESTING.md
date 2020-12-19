@@ -18,7 +18,7 @@ The code used for Simon Memory Challenge was extensively tested through manual p
 
 All code written has been thoroughly validated and passed through the following online validators:
 
-- HTML - All code was run through the [W3C HTML Validator](https://validator.w3.org/) to ensure it was valid code and no errors were made ![HTML Validator](testingfiles/HTMLValidator.png)
+- HTML - All code was run through the [W3C HTML Validator](https://validator.w3.org/) to ensure it was valid code and no errors were made ![HTML Validator](testingfiles/HtmlValidator.png)
 
 - CSS - All styling was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure it was valid and no errors were made ![CSS Validator](testingfiles/CSSValidator.png)
 
