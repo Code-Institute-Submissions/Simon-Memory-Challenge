@@ -97,3 +97,25 @@ function startOver() {
     gamePattern = [];
     started = false;
 }
+
+//----------------------------------------------------------------Toggle menu
+
+$(".btn-theme-mode").click(function () {
+    $('body').toggleClass('dark-mode');
+    var element = document.getElementById('modeImage');
+    if (element.src.match("assets/images/dark-mode.png")) {
+        element.src = "assets/images/light-mode.png";
+    } else {
+        element.src = "assets/images/dark-mode.png";
+    }
+});
+
+$(".btn-sound").click(function () {
+    $(".btn-sound").toggleClass('sound-mute');
+    var element = document.getElementById('soundType');
+    if (element.src.match("assets/images/sound-on.png")) {
+        element.src = "assets/images/sound-off.png";
+    } else {
+        element.src = "assets/images/sound-on.png";
+    }
+});
