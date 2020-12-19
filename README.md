@@ -6,11 +6,7 @@ The Simon Memory Challenge is a memory game designed to engage users of all ages
 
 I have used HTML, CSS and JavaScript to build this and the game which will form part of my ongoing portfolio of work.
 
-## Demo
-
-![Am-I-Responsive](testingfiles/amiresponsive.png)
-
-A live demo of the website can be found [here](https://fatimascoding2020.github.io/Simon-Memory-Challenge/).
+![Am-I-Responsive](testingfiles/AmIResponsive.png)
 
 
 ## Table of Contents
