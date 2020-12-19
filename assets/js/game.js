@@ -52,7 +52,7 @@ function checkAnswer(currentLevel) {
     } else {
         playSound("try-again");
         $("body").addClass("game-over");
-        $("#level-title").text("Try again!, Press Start to Restart");
+        $("#level-title").text("Try again! Press Start to replay...");
         $("#btnTextPlay").text("START");
         $("#btnStart").removeClass("started");
         setTimeout(function () {
@@ -87,7 +87,7 @@ function animatePress(currentColor) {
 function playSound(name) {
     // Play if sound is not mute
     if (!$('.btn-sound').hasClass('sound-mute')) {
-        var audio = new Audio("sounds/" + name + ".mp3");
+        var audio = new Audio("assets/sounds/" + name + ".mp3");
         audio.play();
     }
 }
